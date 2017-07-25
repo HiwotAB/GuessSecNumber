@@ -1,0 +1,19 @@
+1.Declare the string variable continues and set the vall to null.
+2.Declare the Int variable guess .
+3. Declare the random number and assign to numberHold variable
+3.Print message to the user to accept input guess
+
+4.While loop numberHold lessthan or equal to the random value
+	a.Accept input from the user guess
+	b.check if numberHold== guess
+		Print the message correct
+	c.check else if guess>numberHold then 
+		Print the message "Your Guess is too high , try again? (Y/N)"
+	d.check else if guess<numberHold then 
+		Print the message "Your Guess is too low , try again? (Y/N)"
+5.end while
+	
+
+
+
+	

@@ -1,0 +1,52 @@
+import java.util.Scanner;
+import java.util.Random;
+public class GuessNumSec {
+
+	public static void main(String[] args) {
+		Random r = new Random();		
+		int guess;
+		String continues="null";		
+		int numberHold=r.nextInt(100);		
+		Scanner scan =new Scanner(System.in);
+		System.out.print("Guess a secret number: ");		
+		guess=scan.nextInt();
+		while(numberHold<=100){
+		if(guess==numberHold){
+			System.out.print("Your Guess Correct");	
+		}
+		else if(guess>numberHold){			
+			System.out.print("Your Guess is too high , try again? (Y/N)");
+			Scanner scans =new Scanner(System.in);
+			continues=scans.nextLine();
+			if(continues.equalsIgnoreCase("y")){
+				System.out.println("Guess a secret number again:");	
+				guess=scan.nextInt();
+			}
+			else
+			{
+				
+			}
+			
+			
+		}
+		else if(guess<numberHold){
+			System.out.print("Your Guess is too low , try again? (Y/N)");
+			Scanner sca =new Scanner(System.in);
+			continues=sca.nextLine();
+			if(continues.equalsIgnoreCase("y")){
+				System.out.println("Guess a secret number again:");	
+				guess=scan.nextInt();
+			}
+			else
+			{
+				
+			
+			}
+		}
+		
+		}
+	}
+
+}
+
+

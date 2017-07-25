@@ -1,0 +1,9 @@
+1.Prompt the user to enter guess secrete number
+2.Get input values from the user 
+3.Check for the three cases of guess number
+	a.if the guess number is same as the  secrete hold number  then print the guess number is correct 
+	b.f the guess number is less than the secrete hold number  then print Your Guess is too low , try again
+	c.if the guess number is greater than the secrete hold number  then print Your Guess is too high , try again
+4 end
+
+		
